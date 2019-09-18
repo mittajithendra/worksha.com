@@ -1,7 +1,7 @@
 ---
 title: Array Rotation
 date: 2019-09-17
-author: Jith
+author: mittajithendra
 categories:
   - Sorting
   - Data Structures

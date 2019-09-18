@@ -1,7 +1,7 @@
 ---
 title: Sum of Odd Elements
 date: 2019-09-14
-author: Jith
+author: mittajithendra
 categories:
   - Arrays
   - Data Structures
