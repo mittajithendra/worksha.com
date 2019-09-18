@@ -9,14 +9,25 @@ const Query = () => {
       <p>Have any doubt, post it here! We'll Respond soon.</p>
       <form
         name="contact-form"
-        method="post"
+        method="POST"
         data-netlify="true"
-        netlify-honeypot="bot-field"
+        action="/thank-you"
       >
+        <input type="hidden" name="form-name" value="Contact Form" />
         <PageGrid columns="repeat(2,1fr)">
           <div className="grid-container">
-            <input name="name" placeholder="Your Name" type="text" />
-            <input name="email" placeholder="name@name.com" type="email" />
+            <input
+              name="name"
+              placeholder="Your Name"
+              type="text"
+              required="required"
+            />
+            <input
+              name="email"
+              placeholder="name@name.com"
+              type="email"
+              required="required"
+            />
           </div>
         </PageGrid>
         <br />
@@ -27,6 +38,7 @@ const Query = () => {
               name="message"
               placeholder="Your Question Here"
               rows="5"
+              required="required"
             />
           </div>
         </PageGrid>
