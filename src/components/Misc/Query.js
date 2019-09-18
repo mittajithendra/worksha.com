@@ -8,12 +8,14 @@ const Query = () => {
       <h4>Post your Query</h4>
       <p>Have any doubt, post it here! We'll Respond soon.</p>
       <form
-        name="contact-form"
-        method="POST"
+        name="contact"
+        method="post"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         action="/thank-you"
       >
-        <input type="hidden" name="form-name" value="Contact Form" />
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
         <PageGrid columns="repeat(2,1fr)">
           <div className="grid-container">
             <input

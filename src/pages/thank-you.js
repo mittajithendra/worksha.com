@@ -6,7 +6,7 @@ import Helmet from "react-helmet"
 const ThankYouPage = () => (
   <Layout>
     <Helmet>
-      <title>Python | Worksha</title>
+      <title>Thank You</title>
     </Helmet>
     <Container>
       <h1>Thank You</h1>
