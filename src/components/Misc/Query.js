@@ -11,7 +11,7 @@ const Query = () => {
         name="contact-form"
         method="post"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        netlify-honeypot="bot-field"
       >
         <PageGrid columns="repeat(2,1fr)">
           <div className="grid-container">
@@ -40,6 +40,7 @@ const Query = () => {
             borderRadius: ".5rem",
             border: "1px solid #4cb6b6",
           }}
+          type="submit"
         >
           Send
         </button>
