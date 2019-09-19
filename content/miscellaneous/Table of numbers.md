@@ -29,7 +29,7 @@ The program takes in a number and prints the table of a given number.If we give 
 ```python
     n=int(input("Enter the number to print the tables for:"))
     rang=int(input("Enter the number to print how many numbers"))
-    #it terminate from 1 to 10.
+    #it terminate from 1 to rang.
     for i in range(1,rang):
         print(str(n)+'*'+str(i)+'='+str(n*i))#it diplays as n*i=resulting of that number.
 ```
@@ -47,7 +47,7 @@ Enter the number to print the tables for:7
 
 ### EXCPECTED OUTPUT:
 
-7 x 1 = 7
+7 x 1 = 7<br>
 7 x 2 = 14
 7 x 3 = 21
 7 x 4 = 28
