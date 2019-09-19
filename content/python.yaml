@@ -1,5 +1,22 @@
 - title: Introduction
   elements:
-    - title: Sum odd elements
-    - title: Array Rotation
-    - title: Possible words from Phone Digits
+    - title: Why choose Python3
+    - title: Installing Python3
+    - title: Data Types
+    - title: variables
+    - title: operators and Expressions
+    - title: Strings and Characters
+    - title: Lists and Tuples
+    - title: Dictionaries
+    - title: sets
+    - title: lexical structure
+    - title: conditional statements
+    - title: while loops
+    - title: for loops
+    - title: Input
+    - title: output
+    - title: string formatting
+    - title: Reading and writing files
+    - title: Errors and Exceptions
+    - title: Range
+    - title: Enumerate
