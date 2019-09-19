@@ -18,9 +18,7 @@ const Footer = () => {
           <FooterLink href="https://www.gatsbyjs.org">
             GatsbyJs
           </FooterLink> by{" "}
-          <FooterLink href="https://www.github.com/mohanmonu777">
-            Mohan Talupula
-          </FooterLink>
+          
         </p>
       </Container>
     </Wrapper>
