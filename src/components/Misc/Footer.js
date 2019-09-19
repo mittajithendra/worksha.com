@@ -13,11 +13,6 @@ const Footer = () => {
       <Container>
         <p>Copyright © 2019. Worksha. All Rights Reserved.</p>
         <p>
-          {" "}
-          Built with{" "}
-          <FooterLink href="https://www.gatsbyjs.org">
-            GatsbyJs
-          </FooterLink> by{" "}
           
         </p>
       </Container>
