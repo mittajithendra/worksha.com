@@ -3,8 +3,10 @@
     - title: Sum of Odd Elements
     - title: Array Rotation
     - title: Possible words from Phone Digits
-- title: Sorting
+- title: Strings
   elements: 
-    - title: Sum of Odd Elements
-    - title: Array Rotation
-    - title: Possible words from Phone Digits
+    - title: Pallindrome
+
+- title: Sorting
+  elements:
+    - title: Counting Sort
