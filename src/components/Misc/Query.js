@@ -48,7 +48,6 @@ const Query = () => {
         <button
           style={{
             padding: ".4rem 1rem",
-            border: "none",
             color: "#4cb6b6",
             background: "rgba(0, 0, 0, 0.05)",
             borderRadius: ".5rem",

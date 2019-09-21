@@ -12,9 +12,7 @@ const Footer = () => {
     <Wrapper>
       <Container>
         <p>Copyright © 2019. Worksha. All Rights Reserved.</p>
-        <p>
-          
-        </p>
+        
       </Container>
     </Wrapper>
   )
