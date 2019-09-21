@@ -1,6 +1,6 @@
 ---
 title: Password detect
-date: 2019-09-19
+date: 2019-09-21
 author: DimpleGalla
 categories:
   - strings
