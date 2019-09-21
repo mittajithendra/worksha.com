@@ -47,16 +47,16 @@ Enter the number to print the tables for:7
 
 ### EXCPECTED OUTPUT:
 
-7 x 1 = 7<br>
-7 x 2 = 14
-7 x 3 = 21
-7 x 4 = 28
-7 x 5 = 35
-7 x 6 = 42
-7 x 7 = 49
-7 x 8 = 56
-7 x 9 = 63
-7 x 10 = 70
+7 x 1 = 7<br />
+7 x 2 = 14<br />
+7 x 3 = 21<br />
+7 x 4 = 28<br />
+7 x 5 = 35<br />
+7 x 6 = 42<br />
+7 x 7 = 49<br />
+7 x 8 = 56<br />
+7 x 9 = 63<br />
+7 x 10 = 70<br />
  
 ### Case 2:
 
@@ -66,15 +66,15 @@ Enter the number to print the tables for:17
 
 ### EXCPECTED OUTPUT:
 
-17 x 1 = 17
-17 x 2 = 34
-17 x 3 = 51
-17 x 4 = 68
-17 x 5 = 85
-17 x 6 = 102
-17 x 7 = 119
-17 x 8 = 136
-17 x 9 = 1530
+17 x 1 = 17<br />
+17 x 2 = 34<br />
+17 x 3 = 51<br />
+17 x 4 = 68<br />
+17 x 5 = 85<br />
+17 x 6 = 102<br />
+17 x 7 = 119<br />
+17 x 8 = 136<br />
+17 x 9 = 1530<br />
 
 ### TIME COMPLEXITY:
 

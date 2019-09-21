@@ -15,9 +15,9 @@ let us enter a string and store it a variable my_str using casefold() method mak
 lowercased. Now string is reversed using string slicing and compared back to non-reversed string
  if both the strings are equal then the given string is palindrome or else it is not
 
-### Python Program
+### Python2 Program
 
-```python2
+```python
     My_str=raw_input("enter a string")
     string=My_str.casefold()
     if string==string[::-1]:

@@ -23,7 +23,7 @@ After x rotations means xth element comes to starting point of an array and o to
 
 ### Input
 
-2 3 4 5 6 7 8 9
+2 3 4 5 6 7 8 9<br />
 3
 
 ### Output

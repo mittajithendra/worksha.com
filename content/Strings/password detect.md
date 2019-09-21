@@ -34,10 +34,10 @@ print (length,s[a][length//2])
  
 ### SAMPLE INPUT:
 4
-abc
-def
- fgh
-cba
+abc <br />
+def <br />
+fgh <br />
+cba <br />
 ### SAMPLE OUTPUT:
 3 b
 ### TIME COMPLEXITY:

@@ -29,7 +29,7 @@ counting sort algorithm sorts the array using frequency of each array
 
 ### Python Program
 
-```python2
+```python
     def counting sort(arr):
      m=max(arr)
      dup_arr=[0]*(m+1)

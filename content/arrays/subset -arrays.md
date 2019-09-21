@@ -36,13 +36,13 @@ powerset(li,n)
     let 2 3 4 be input
 
 ### OUTPUT:
-[2]
-[3]
-[4]
-[2,3]
-[2,4]
-[3,4]
-[2,3,4]
+[2]<br />
+[3]<br />
+[4]<br />
+[2,3]<br />
+[2,4]<br />
+[3,4]<br />
+[2,3,4]<br />
 
 ### ANALYSIS:
     input is taken as a string'2,3,4'.using split and map functions we convert
