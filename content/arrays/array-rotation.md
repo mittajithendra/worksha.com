@@ -3,7 +3,6 @@ title: Array Rotation
 date: 2019-09-17
 author: mittajithendra
 categories:
-  - Sorting
   - Data Structures
 ---
 

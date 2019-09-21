@@ -1,8 +1,11 @@
 - title: Arrays
   elements: 
     - title: Sum of Odd Elements
-    - title: Array Rotation
+    - title: Array Rotation 
     - title: Possible words from Phone Digits
+    - title: subset of array
+    - title: zeroes to end
+    - title: flipping image
 - title: Strings
   elements: 
     - title: Pallindrome
