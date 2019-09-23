@@ -21,7 +21,6 @@ const ds = ({ data }) => {
               {elements.map(({ title }) => (
                 <Link to={kebabCase(title)}>
                   {title}
-                  <br />
                 </Link>
               ))}
             </ul>
