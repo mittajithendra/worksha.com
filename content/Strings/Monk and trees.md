@@ -36,12 +36,12 @@ while(t):
 
 ```
 ### Sample input:
-2
+2<br />
 AsiutOre<br />
-ouIaPifhj<br />
+ouIaPifhj
 ### Sample output:
 5<br />
-4<br />
+4
 
 ### Time Complexity:
 The time complexity of this program is O(n)

@@ -6,8 +6,9 @@
     - title: subset of array
     - title: zeroes to end
     - title: flipping image
+    
 - title: Strings
-  elements: 
+  elements:
     - title: Pallindrome
     - title: Password detect
     - title: Monk and Trees

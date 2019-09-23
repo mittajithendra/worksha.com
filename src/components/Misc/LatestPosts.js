@@ -43,7 +43,7 @@ const LatestPosts = () => {
               categories={post.frontmatter.categories}
               key={post.fields.slug}
               top = "0"
-              bottom = "2rem"
+              bottom = "1rem"
             />
           ))}
         </div>
