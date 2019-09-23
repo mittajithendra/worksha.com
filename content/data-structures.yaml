@@ -6,7 +6,7 @@
     - title: subset of array
     - title: zeroes to end
     - title: flipping image
-    
+    - title: min-max sum
 - title: Strings
   elements:
     - title: Pallindrome
@@ -21,7 +21,11 @@
 - title: Recursion
   elements:
     - title: possible words from phone digits
-    
+
+- title: Trees
+  elements:
+    - title: Height of a binary tree
+
 - title: Miscellaneous
   elements:
     - title: Table of numbers

@@ -38,7 +38,7 @@ const Query = () => {
             />
             <input
               name="fields"
-              placeholder="Python,Machine Learning,Aptitude,C/C++"
+              placeholder="Interested topics like Python,Machine Learning,Aptitude,C/C++"
               type="text"
               required="required"
             />
