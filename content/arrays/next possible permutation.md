@@ -33,19 +33,21 @@ In the description we will discus about the following,
  
 ### SOURCECODE:
 ```python
- def nextpermut(nums,n):
-     for i in range(0,n-1):
-         if(nums[i]>nums[i+1]):
-             nums[n-1],nums[i] = nums[i],nums[n-1]
-            
-           
-         else:
-             nums[n-1],nums[n-2]=nums[n-2],nums[n-1]
-         break    
- nums=list(map(int,input().split()))
- n=len(nums)
- nextpermut(nums,n)
- print(nums)
+def nextpermut(nums,n):
+    flag=0
+    for i in range(n-1,0,-1):
+        if nums[i]>nums[i-1]:
+              nums[i],nums[i-1]=nums[i-1],nums[i]
+              flag=1
+              break
+    if flag==0:
+        nums=nums[::-1]
+          
+nums=list(map(int,input().split()))
+n=len(nums)
+nextpermut(nums,n)
+print(nums)
+
  ```
             
  ### INPUT:
