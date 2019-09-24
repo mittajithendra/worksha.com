@@ -59,13 +59,8 @@ print(nums)
 
  ### EXPLANATION 
  
-  In the def function we intialise with the function nextpermut with two variables nums,n.
- then the by giving input list value it splits into int values.
- 
- then function calls the nums and n the excute the for loop and the conditions gives the
- satisfactory output as we performed above process.
- 
- here n is the length of the list nums.
+  we process the array from last element when the current element is greater than previous element then swap with previous
+  and halts the loop.Because on swapping the next permutation will occur.
  
  ### TIME COMPLEXITY:
  Time complexity of the next permutation is the linear.
