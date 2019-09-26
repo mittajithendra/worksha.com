@@ -23,6 +23,7 @@
   elements:
     - title: Remainder with 7
     - title: Possiblities to get sum
+    - title: Table of numbers
 - title: Recursion
   elements:
     - title: possible words from phone digits
@@ -33,4 +34,4 @@
 
 - title: Miscellaneous
   elements:
-    - title: Table of numbers
+    - title: 
