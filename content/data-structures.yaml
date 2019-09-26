@@ -19,7 +19,10 @@
   elements:
     - title: Counting Sort
     
-
+- title: Mathematics
+  elements:
+    - title: Remainder with 7
+    - title: Possiblities to get sum
 - title: Recursion
   elements:
     - title: possible words from phone digits
