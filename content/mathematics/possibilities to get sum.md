@@ -1,5 +1,5 @@
 ---
-title: Remainder with 7
+title: Possiblities to get sum
 date: 2019-09-26
 author: suhelshaik
 categories:
