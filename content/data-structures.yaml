@@ -8,6 +8,7 @@
     - title: flipping image
     - title: min-max sum
     - title: Next permutation
+    - title: Pallindromic array
     
 - title: Strings
   elements:
@@ -24,6 +25,9 @@
     - title: Remainder with 7
     - title: Possiblities to get sum
     - title: Table of numbers
+    - title: Angle Between Hour and Minute hand
+    - title: Pascal Triangle
+    
 - title: Recursion
   elements:
     - title: possible words from phone digits
