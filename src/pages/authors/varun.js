@@ -1,7 +1,14 @@
 import React from "react"
+import Layout from "../../components/Layout"
+import Container from "../../components/Responsive/Container"
+
+
 export default function Problems() {
     return (
+      <Layout>
+        <Container>
       <div>
+     
   <center><h1>Varun's Profile</h1></center>
   <h3>Still Pending</h3>
   <ul>
@@ -20,6 +27,8 @@ export default function Problems() {
         <li><a href="https://worksha.com/pascal-triangle">Pascal Triangle</a></li>
       </ul>
       </div>
+      </Container>
+      </Layout>
     )
   }
   

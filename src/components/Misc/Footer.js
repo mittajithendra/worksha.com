@@ -3,9 +3,8 @@ import styled from "styled-components"
 
 import Container from "../Responsive/Container"
 
-const FooterLink = styled.a`
-  color: #282828;
-`
+
+
 
 const Footer = () => {
   return (

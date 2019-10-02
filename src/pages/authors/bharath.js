@@ -1,8 +1,11 @@
 import React from "react"
-
+import Layout from "../../components/Layout"
+import Container from "../../components/Responsive/Container"
 
 export default function Problems() {
     return (
+      <Layout>
+        <Container>
       <div>
   <center><h1>Bharath's Profile</h1></center>
   <h3>Still Pending</h3>
@@ -18,6 +21,8 @@ export default function Problems() {
       </ul>
         
       </div>
+      </Container>
+      </Layout>
     )
   }
   
