@@ -17,6 +17,7 @@ export default function Problems() {
   <br />
       <h2>Problems Posted</h2>
       <ul>
+        <li><a href="https://worksha.com/Truth_value">Truth Value</a></li>
       <li><a href="https://worksha.com/data-types">Data Types</a></li>
       <li><a href="https://worksha.com/strings-and-characters">Strings and characters</a></li>
       <li><a href="https://worksha.com/sets">Sets</a></li>
