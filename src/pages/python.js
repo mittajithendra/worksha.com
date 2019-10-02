@@ -4,6 +4,7 @@ import Container from "../components/Responsive/Container"
 import { graphql, Link } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 import Helmet from "react-helmet"
+import Footer from "../components/Misc/Footer"
 
 const ds = ({ data }) => {
   const lists = data.allPythonYaml.nodes
@@ -28,6 +29,7 @@ const ds = ({ data }) => {
           )
         })}
       </Container>
+      <Footer />
     </Layout>
   )
 }
