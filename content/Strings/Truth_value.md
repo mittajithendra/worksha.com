@@ -1,6 +1,6 @@
 ---
 title: Truth Value
-date: 2019-09-22
+date: 2019-10-02
 author: SireeshaBandari
 categories:
   - strings
