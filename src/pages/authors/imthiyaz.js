@@ -10,7 +10,13 @@ export default function Problems() {
         <li>Armstrong Number</li>
 		<li>Shell sort</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <p>Not done yet</p>
+      <ul>
+        <li></li>
+      </ul>
         
       </div>
     )

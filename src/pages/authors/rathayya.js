@@ -10,7 +10,12 @@ export default function Problems() {
         <li>Insertion Sort</li>
         <li>Difference between small-omega big-omega</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <ul>
+        <li><a href="https://worksha.com/zeroes-to-end">Zeros to end</a></li>
+      </ul>
         
       </div>
     )

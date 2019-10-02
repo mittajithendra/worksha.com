@@ -10,7 +10,14 @@ export default function Problems() {
         <li>Heap Sort</li>
 		<li>What is stability in sorting algorithms</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <ul>
+        <li><a href="https://worksha.com/next-permutation">Next Permutation</a></li>
+        <li><a href="https://worksha.com/counting-sort">Counting Sort</a></li>
+        <li><a href="https://worksha.com/height-of-a-binary-tree">Height of a binary tree</a></li>
+      </ul>
         
       </div>
     )

@@ -27,6 +27,7 @@
     - title: Table of numbers
     - title: Angle Between Hour and Minute hand
     - title: Pascal Triangle
+    - title: Frog Position
     
 - title: Recursion
   elements:
@@ -35,3 +36,6 @@
 - title: Trees
   elements:
     - title: Height of a binary tree
+- title: Miscellaneous
+  elements:
+    - title: Kangaroo

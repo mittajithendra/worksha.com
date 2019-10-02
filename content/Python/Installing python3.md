@@ -1,7 +1,7 @@
 ---
 title: Installing Python3
 date: 2019-09-26
-author: madhuri55
+author: madhuriodugu
 categories:
   - Python
 ---

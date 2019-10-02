@@ -10,7 +10,12 @@ export default function Problems() {
         <li>Radix Sort</li>
 		<li>Gcd of two numbers(Euclidean)</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <ul>
+        <li><a href="https://worksha.com/pallindrome">Pallindrome</a></li>
+      </ul>
         
       </div>
     )

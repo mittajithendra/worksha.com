@@ -10,7 +10,13 @@ export default function Problems() {
         <li>Merge Sort</li>
 		<li>Given a number is prime or not</li>
 </ul>
-        
+<br />
+  <br />
+      <h2>Problems Posted</h2>
+      <p>Not done yet</p>
+      <ul>
+        <li></li>
+      </ul>
         
       </div>
     )

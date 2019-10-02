@@ -11,7 +11,13 @@ export default function Problems() {
 		<li>Number of possible combinations for a given string</li>
 	
 	</ul>
-
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <p>Not done yet</p>
+      <ul>
+        <li></li>
+      </ul>
 		
         
       </div>

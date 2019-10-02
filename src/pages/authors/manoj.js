@@ -10,7 +10,13 @@ export default function Problems() {
         <li>Gnome Sort</li>
 		<li>What is External Sorting?</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <p>Not done yet</p>
+      <ul>
+        <li></li>
+      </ul>
         
       </div>
     )

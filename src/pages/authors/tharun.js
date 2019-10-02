@@ -10,7 +10,12 @@ export default function Problems() {
         <li>Bubble Sort</li>
 		<li>Is the string A is subtring of String B or not</li>
 	</ul>
-        
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <ul>
+        <li><a href="https://worksha.com/table-of-numbers">Table of numbers</a></li>
+      </ul>
         
       </div>
     )

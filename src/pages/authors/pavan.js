@@ -12,7 +12,12 @@ export default function Problems() {
 	
 	</ul>
 
-		
+  <br />
+  <br />
+      <h2>Problems Posted</h2>
+      <ul>
+        <li><a href="https://worksha.com/min-max-sum">Min max sum</a></li>
+      </ul>
         
       </div>
     )
