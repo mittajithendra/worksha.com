@@ -10,6 +10,7 @@ categories:
 
 ### PASCAL TRIANGLE
 #### PROGRAM DISCRIPTION:
+<br />
          This is a python programme to print
 the pascal triangle for n number of rows given as
 an input.
@@ -17,6 +18,7 @@ an input.
 the pascal triangle having n number of rows is printed.
 
 ### ALGORITHM:
+<br />
       1.Take in the number of rows the triangle should have
 and store it in a seperate variable.
 <br />
@@ -68,12 +70,13 @@ number inside the triangle.
 
 
 ### INPUT:
-
+<br />
     enter number of rows:4
 
 
 
 ### OUTPUT:
+<br />
 
       1
 
@@ -86,6 +89,7 @@ number inside the triangle.
 
 
 ### EXPLANATION:
+<br />
         When user enters the number of rows that the pascal's triangle
 have,the for loop is used to append sub-lists into an empty list which is
 declared earlier.
@@ -98,4 +102,5 @@ to that format.
 
 
 ### TIME COMPLEXITY:
+<br />
       The time complexity of the above given programme is O(n^3).

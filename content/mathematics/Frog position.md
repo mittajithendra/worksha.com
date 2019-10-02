@@ -8,7 +8,7 @@ categories:
 ---
 
 ### PROBLEM:
-    To calculate the number of positions of frogs inside or on the square of
+To calculate the number of positions of frogs inside or on the square of
 given dimensions.
 DESCRIPTION:
     Let (x,y) be initial position of frog.'X','Y' be dimensions of one of the
@@ -39,6 +39,7 @@ b=len(a)
 print(b)
 ```
 ### INPUT:
+<br>
 enter p ordinate:2
 enter p abscica:2
 enter the lenght of side of square:3
@@ -49,6 +50,7 @@ enter the time period:6
 6     &nbsp&nbsp&nbsp  #represents number of positions frog lies inside and on square dimension
 
 ### ANALYSIS:
+<br>
     Here the function 'position' is recursive.for every iteration the v is
 incremented by 1.when v==t return the count and function will terminate.
 The count is modified into set and its lenght is calculated.This value

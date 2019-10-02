@@ -7,9 +7,10 @@ categories:
   - arrays
 ---
 
-### PROBLEM:
-    print the subsets of a given array.
-### DESCRIPTION:
+### Problem:
+print the subsets of a given array.
+### Description:
+
     To find the subsets of a given set,we convert the given input into list of
  integers and our defined function 'powerset' is called with suitable arguments.
     we find the binary of required integer using built-in-function 'bin(x)'
@@ -33,6 +34,7 @@ powerset(li,n)
 ```
 
 ### INPUT:
+<br />
     let 2 3 4 be input
 
 ### OUTPUT:

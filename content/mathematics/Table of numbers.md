@@ -7,20 +7,18 @@ categories:
   - easy programs
 ---
 ## Program
- write a program to print tables of given number
+write a program to print tables of given number
 
 ### Description
- 1. counting sort Process and algorithm,
- 2. program code,
- 3. input and output,
- 4. complexity.
+1. counting sort Process and algorithm,
+2. program code,
+3. input and output,
+4. complexity.
 
 ### Description
-
 The program takes in a number and prints the table of a given number.If we give any number as a input it will displays that tables of that number it the values teriminate the "FOR" loop  
 
 ### PROBLEM SOLUTION:
-
 1. Take in a number and store it in a variable.
 2. Print the multiplication tables of a given number.
 3. Exit.
@@ -35,18 +33,14 @@ The program takes in a number and prints the table of a given number.If we give 
 ```
 
 ### PROGRAM EXPLANATION:
-
 1. User must enter a number.
 2. Using a print statement, print the multiplication tables of the given number.
 
-Case 1:
 
 ### INPUT:
-
 Enter the number to print the tables for:7
 
 ### EXCPECTED OUTPUT:
-
 7 x 1 = 7<br />
 7 x 2 = 14<br />
 7 x 3 = 21<br />
@@ -58,23 +52,6 @@ Enter the number to print the tables for:7
 7 x 9 = 63<br />
 7 x 10 = 70<br />
  
-### Case 2:
-
-### INPUT:
-
-Enter the number to print the tables for:17
-
-### EXCPECTED OUTPUT:
-
-17 x 1 = 17<br />
-17 x 2 = 34<br />
-17 x 3 = 51<br />
-17 x 4 = 68<br />
-17 x 5 = 85<br />
-17 x 6 = 102<br />
-17 x 7 = 119<br />
-17 x 8 = 136<br />
-17 x 9 = 1530<br />
 
 ### TIME COMPLEXITY:
 

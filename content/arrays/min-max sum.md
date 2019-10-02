@@ -11,6 +11,7 @@ categories:
 
 
 ### QUESTION:
+<br>
 Given A Series Of N Positive Integers a1,a2,a3........an. ,
 Find The Minimum And Maximum Values That Can Be
 Calculated By Summing Exactly N-1 Of The N Integers.
@@ -18,10 +19,14 @@ Then Print The Respective Minimum And Maximum
 Values As A Single Line Of Two Space-Separated Long
 Integers.
 
-Input Format : First Line Take Input Value Of N
+### Input Format :
+<br>
+First Line Take Input Value Of N
 Second Line Take Input N Space Separated Integer Value
 
-Output Format : Two Space Separated Value ( One
+### Output Format :
+<br>
+Two Space Separated Value ( One
 Maximum Sum And One Minimum Sum )
 
 ### PROGRAM:
@@ -42,6 +47,7 @@ print(f&#39;minimum sum is {min_sum}&#39;)
 ```
 
 ### SAMPLE INPUT :
+<br>
 Enter n value: 5<br />
 1<br />
 2<br />
@@ -50,10 +56,12 @@ Enter n value: 5<br />
 5
 
 ### SAMPLE OUTPUT :
+<br>
 maximum sum is 14
 minimum sum is 10
 
 ### EXPLANATION :
+<br>
 First input the n value.Create an empty list l.Here n give s
 the number of elements in list.In the next line ,input n
 values in list l using for loop.And then in the next line

@@ -10,11 +10,13 @@ categories:
 ### PALINDROMIC ARRAY
 
 #### programme description:
+<br>
    You are given an array of size n.
    Your task is to find an the minimum number of operations
 to convert the given array to palindromic array.
 
 ### ALGORITHM:
+<br>
      Let number operations be count.
      First of all take two indices i,j and assign them to
 0 and n-1 respectively.
@@ -75,12 +77,15 @@ print(min_number_of_operators(a,n))
 
 
 ### INPUT:
+<br>
    1 2 3 4 5
 
 ### OUTPUT:
+<br>
    2
 
 ### EXPLANATION FOR INPUT AND OUTPUT:
+<br>
      When input is given with integers with spaces first it converts
 them into an array as we have used map() function.
      for example 1 2 3 4 5 wil be coverted as[1,2,3,4,5].
@@ -92,5 +97,6 @@ it goes with which is greater as 1<5 then merging takes place array[i].
 place for getting a palindromic array.
 
 ### TIME COMPLEXITY:
+<br>
       Time complexity for the above given programme is O(n),since only one
 for loop is used.  

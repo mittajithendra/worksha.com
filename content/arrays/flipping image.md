@@ -8,7 +8,7 @@ categories:
 ---
 
 ### FLIPPING OF IMAGE
-
+<br>
 1.PROBLEM DISCRIPTION:
     Here,you will get a python programme to horizontally flip
 a binary matrix.
@@ -16,6 +16,7 @@ a binary matrix.
 of the matrix),then invert it.
 
 ### 2.ALGORITHM:
+<br>
   To flip a matrix horizontally means that reversing
 each row of the matrix.
   for example,flipping[1,1,0,0] horizontally results
@@ -47,14 +48,15 @@ image(mat)
 ```
 
 ### 4.INPUT:
-  
+  <br>
    [[1,1,0,0],[1,0,0,0]]
 
 ### 5.OUTPUT:
-  
+  <br>
    [[1,1,0,0],[1,1,1,0]]
 
 ### 6.EXPLANATION FOR INPUT AND OUTPUT:
+<br>
        When a horizontal binary matrix is given by the user,
 firstly each row will be reversed.
                i.e..,[1,1,0,0] will be reveresed as [0,0,1,1]
@@ -64,12 +66,13 @@ we will find the invert of an image.
 and finally the flipped matrix will be printed.
 
 ### 7.TIME COMPLEXITY:
-
+<br>
    If the given matrix has n elements in total then the
 time compexity wil be O(n).Because we need to iterate all
 the elements.
 
 ### 8.SPACE COMPLEXITY:
+<br>
  The space compelexity of the above program will be O(1).
 
     

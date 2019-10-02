@@ -9,6 +9,7 @@ categories:
 ---
 
 ### PROGRAM DESCRIPTION:
+<br>
        This problem is known as clock angle problem.
 where we need to find angle between handsof an analog
 clock at a given time.
@@ -16,6 +17,7 @@ clock at a given time.
 and angle between them is found by tking reference to 12:00.
 
 ### ALGORITHM:
+<br>
       Firstly calculate the angle made by hour hand with 
 respect to 12:00 in h hours and m minutes.
       Secondly Calculate the angle made by minute hand with respect
@@ -58,13 +60,16 @@ print(calc_angle(h,m))
 ```
 
 ### INPUT:
+<br>
      enter h value=3
      enter m value=30
 
 ### OUTPUT:
+<br>
     75.0
 
 ### EXPLANATION:
+<br>
 The minute hand moves 360 degrees in 60 minutes (6 degrees in 1 min)
 and the hours hand moves 360 degrees in 12 hours(0.5 degrees in 1 min).
      In h hours and m minutes, the minute hand would move(h*60+m)*6
@@ -76,4 +81,5 @@ and hour hand would move (h*60+m)*0.5.
 
 
 ### TIME COMPLEXITY:
+<br />
       The time complexity for above programme is O(1).

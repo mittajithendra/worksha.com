@@ -7,6 +7,7 @@ categories:
   - arrays
 ---
 ### DESCRIPTION:
+<br />
     The problem given is to fine the next permutation for the given input.
 In the description we will discus about the following,
 
@@ -17,6 +18,7 @@ In the description we will discus about the following,
 5.time complexity
 
 ### PROCESS AND ALGORITHM:
+<br>
  The program next permutation,which rearranges numbers into the lexicographycally next greater permutation of numbers.
 
  If such arrangement is not possible,it must rearrange it as the lowest posiible order.
@@ -51,16 +53,18 @@ print(nums)
  ```
             
  ### INPUT:
-  
+  <br>
   5 8 9
 
  ### OUTPUT:
+ <br>
   5 9 8
 
  ### EXPLANATION 
- 
+ <br>
   we process the array from last element when the current element is greater than previous element then swap with previous
   and halts the loop.Because on swapping the next permutation will occur.
  
  ### TIME COMPLEXITY:
+ <br>
  Time complexity of the next permutation is the linear.

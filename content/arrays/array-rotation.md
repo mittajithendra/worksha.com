@@ -6,7 +6,8 @@ categories:
   - arrays
   - Data Structures
 ---
-
+### Problem
+<br>
 Input array is given and an Integer x.Now we print the output after x rotations of an array to the left.
 
 After x rotations means xth element comes to starting point of an array and o to x-1 comes at the end of an array.We apply the same concept in below program.
@@ -23,10 +24,10 @@ After x rotations means xth element comes to starting point of an array and o to
 ```
 
 ### Input
-
+<br>
 2 3 4 5 6 7 8 9<br />
 3
 
 ### Output
-
+<br>
 [5, 6, 7, 8, 9, 2, 3, 4]
