@@ -5,6 +5,8 @@ import kebabCase from "lodash/kebabCase"
 import Layout from "../components/Layout"
 import PrevNext from "../components/Misc/PrevNext"
 import Helmet from "react-helmet"
+//added disqus 
+import { DiscussionEmbed } from 'disqus-react'
 
 const Content = styled.article`
   grid-column: 2;
@@ -48,6 +50,11 @@ const Post = ({
   data: { markdownRemark: postNode },
 }) => {
   const post = postNode.frontmatter
+  
+  const disqusConfig = {
+    shortname: "worksha-com-1",//your site shortname here
+    config: { identifier: post.slug, title: post.title },
+  }
 
   return (
     <Layout>
@@ -75,6 +82,10 @@ const Post = ({
           />
         </PostContent>
         <PrevNext prev={prev} next={next} />
+        <br/>
+        <br/>
+        {/* comments go here */}
+        <DiscussionEmbed {...disqusConfig} /> 
       </Content>
     </Layout>
   )
