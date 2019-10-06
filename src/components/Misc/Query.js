@@ -5,8 +5,8 @@ import PageGrid from "../Responsive/PageGrid"
 const Query = () => {
   return (
     <Container>
-      <h4>Post your Query</h4>
-      <p>Have any doubt, post it here! We'll Respond soon.</p>
+      <h3>Get in touch</h3>
+      <p>Post your queries with out any hesitation and we’ll sure respond.</p>
       <form
         name="contact"
         method="post"
@@ -16,31 +16,45 @@ const Query = () => {
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
+
         <PageGrid columns="repeat(2,1fr)">
           <div className="grid-container">
-            <input
-              name="name"
-              placeholder="Your Name"
-              type="text"
-              required="required"
-            />
-            <input
-              name="email"
-              placeholder="name@name.com"
-              type="email"
-              required="required"
-            />
+            <div>
+              <label for="name">Name</label>
+              <br />
+              <br />
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="your name"
+                required="required"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <br />
+              <br />
+              <input
+                name="email"
+                placeholder="name@name.com"
+                type="email"
+                id="email"
+                required="required"
+              />
+            </div>
           </div>
         </PageGrid>
         <br />
-        <br />
         <PageGrid columns="repeat(1,1fr)">
           <div className="grid-container">
+            <label for="message">Message</label>
             <textarea
               name="message"
               placeholder="Your Question Here"
-              rows="5"
+              rows="4"
               required="required"
+              id="message"
             />
           </div>
         </PageGrid>
@@ -50,7 +64,6 @@ const Query = () => {
             padding: ".4rem 1rem",
             color: "#4cb6b6",
             background: "rgba(0, 0, 0, 0.05)",
-            borderRadius: ".5rem",
             border: "1px solid #4cb6b6",
           }}
           type="submit"
