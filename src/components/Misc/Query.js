@@ -23,25 +23,33 @@ const Query = () => {
               <label for="name">Name</label>
               <br />
               <br />
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="your name"
-                required="required"
-              />
+              <PageGrid columns="repeat(1,1fr)">
+                <div className="grid-container">
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="your name"
+                    required="required"
+                  />
+                </div>
+              </PageGrid>
             </div>
             <div>
               <label for="email">Email</label>
               <br />
               <br />
-              <input
-                name="email"
-                placeholder="name@name.com"
-                type="email"
-                id="email"
-                required="required"
-              />
+              <PageGrid columns="repeat(1,1fr)">
+                <div className="grid-container">
+                  <input
+                    name="email"
+                    placeholder="name@name.com"
+                    type="email"
+                    id="email"
+                    required="required"
+                  />
+                </div>
+              </PageGrid>
             </div>
           </div>
         </PageGrid>
