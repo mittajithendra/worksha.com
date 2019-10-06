@@ -106,7 +106,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${props => props.theme.fontFamily.sansSerif};
   }
   input, textarea {
-    border-radius: .5rem;
     border: 1px solid ${props => props.theme.colors.primary};
     font-family: ${props => props.theme.fontFamily.sansSerif};
     color: ${props => props.theme.colors.primary};
