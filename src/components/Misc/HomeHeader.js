@@ -13,7 +13,7 @@ const HomeHeader = () => {
         <section>
           <span>
             <Title>
-              Make it <span>loud.</span>
+              Make it <span>hard man...</span>
             </Title>
             <SubTitle>
               Worksha is a place to learn code in Python, Data Structures and Algorithms.
